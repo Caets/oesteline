@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px, 0;
+    background-color:orange;
+}
+
+section {
+    background-color: rgb(29, 29, 236);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    color: white;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    padding: 24px 0;;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.symbol {
+    margin: 10px;
+    margin-bottom: 1px;
+    height: 100px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .cam-paper {
+    height: 600px;
+    margin: 30px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #3361dd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #415999;
+}
+
+input:focus, textarea:focus {
+    outline-color: #3361dd;
+}
+
+footer {
+    background-color: #3361dd;
+    color: white;
+    padding: 16px 0;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    justify-content: space-between;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea {
+    resize: none;
+    height: 50px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #3755a8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1b52eb;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    padding: 16px 0;
+}
